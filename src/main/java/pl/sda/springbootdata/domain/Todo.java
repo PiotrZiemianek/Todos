@@ -1,4 +1,4 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,10 +1,12 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.devUtils;
 
 import io.codearte.jfairy.Fairy;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
+import pl.sda.springbootdata.domain.Todo;
+import pl.sda.springbootdata.repository.TodoRepository;
 
 @Component
 @Profile("dev")

@@ -1,4 +1,4 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.dto;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;

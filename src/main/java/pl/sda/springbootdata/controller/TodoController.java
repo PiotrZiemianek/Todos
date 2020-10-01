@@ -1,10 +1,13 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pl.sda.springbootdata.domain.Todo;
+import pl.sda.springbootdata.service.TodoService;
+import pl.sda.springbootdata.dto.TodoToCreate;
 
 import javax.validation.Valid;
 import java.util.List;

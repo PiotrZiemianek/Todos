@@ -1,6 +1,9 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.service;
 
 import org.springframework.data.domain.Page;
+import pl.sda.springbootdata.domain.Todo;
+import pl.sda.springbootdata.dto.TodoToCreate;
+import pl.sda.springbootdata.exceptionUtils.TodoNotFindException;
 
 import java.util.List;
 

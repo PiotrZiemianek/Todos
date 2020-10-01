@@ -1,4 +1,4 @@
-package pl.sda.springbootdata.todo;
+package pl.sda.springbootdata.exceptionUtils;
 
 public class TodoNotFindException extends RuntimeException {
     public TodoNotFindException(String message) {
