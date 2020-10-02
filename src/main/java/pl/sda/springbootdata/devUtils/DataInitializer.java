@@ -10,10 +10,10 @@ import pl.sda.springbootdata.repository.TodoRepository;
 
 @Component
 @Profile("dev")
-public class TodoDataFiller implements ApplicationRunner {
+public class DataInitializer implements ApplicationRunner {
     private final TodoRepository repository;
 
-    public TodoDataFiller(TodoRepository repository) {
+    public DataInitializer(TodoRepository repository) {
         this.repository = repository;
     }
 

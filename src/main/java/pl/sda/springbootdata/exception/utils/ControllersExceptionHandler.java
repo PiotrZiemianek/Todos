@@ -1,10 +1,11 @@
-package pl.sda.springbootdata.exceptionUtils;
+package pl.sda.springbootdata.exception.utils;
 
 import org.springframework.validation.BindException;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import pl.sda.springbootdata.exception.TodoNotFindException;
 
 import java.util.HashMap;
 import java.util.Map;

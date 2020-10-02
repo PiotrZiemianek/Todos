@@ -1,4 +1,4 @@
-package pl.sda.springbootdata.exceptionUtils;
+package pl.sda.springbootdata.exception.utils;
 
 import lombok.Data;
 

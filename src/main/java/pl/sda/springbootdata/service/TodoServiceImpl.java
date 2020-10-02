@@ -6,7 +6,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import pl.sda.springbootdata.domain.Todo;
 import pl.sda.springbootdata.dto.TodoToCreate;
-import pl.sda.springbootdata.exceptionUtils.TodoNotFindException;
+import pl.sda.springbootdata.exception.TodoNotFindException;
 import pl.sda.springbootdata.repository.TodoRepository;
 
 import java.util.List;

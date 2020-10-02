@@ -6,8 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.sda.springbootdata.domain.Todo;
-import pl.sda.springbootdata.service.TodoService;
 import pl.sda.springbootdata.dto.TodoToCreate;
+import pl.sda.springbootdata.service.TodoService;
 
 import javax.validation.Valid;
 import java.util.List;

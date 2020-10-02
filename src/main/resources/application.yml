@@ -1,6 +1,16 @@
 spring:
   profiles:
     active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+info:
+  app:
+    name: Simple Todo Application API
+    description: This is my first spring boot application
+    version: 1.0.0
 
 ---
 
@@ -10,11 +20,12 @@ spring:
     url: jdbc:mysql://localhost:3306/springexample?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: POip0790
-
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: validate
 
 ---
 
@@ -27,8 +38,4 @@ spring:
   h2:
     console:
       enabled: true
-      path: /baza
-  security:
-    user:
-      name: root
-      password: root
+      path: /h2
